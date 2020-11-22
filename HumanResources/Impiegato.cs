@@ -8,11 +8,26 @@ namespace HumanResources
 {
     public class Impiegato : Persona 
     {
-        public string Matricola { get; set; } //proprietà
+        public String Matricola { get; set; }
 
-        public Impiegato() //costruttore
+        public Impiegato()
+            : base()
         {
-            Indirizzo = "Via Roma";
+            Indirizzo = "Via Verdi"; // non c'è bisgno di definire Indirizzo, perchè è nella classe Persona
+        }
+
+        public Impiegato(string nome, string cognome, int eta, string matricola)
+            : base(nome, cognome)
+        {
+            Eta = eta;
+            this.Matricola = matricola;
+            Indirizzo = "Via Verdi";
+        }
+
+        public void StampaLettera(string testo)
+        {
+            string txt = testo.ToLower();
+            Console.WriteLine(txt);
         }
     }
 }

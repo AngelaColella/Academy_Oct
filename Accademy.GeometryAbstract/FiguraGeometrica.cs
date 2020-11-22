@@ -20,12 +20,9 @@ namespace Accademy.GeometryAbstract
 
             string description = "I am a: " + myType + "with Area: " + GetArea() + "Perimetro: " + GetPerimetro();
 
-            // string description = "Area: " + GetArea() + "Perimetro: " + GetPerimetro();
-            // definisco una variabile stringa e poi faccio la concatenazione di una stringa con il risultato di GetArea
             return description;
         }
-
-    
-}
+ 
+    }
 }
 

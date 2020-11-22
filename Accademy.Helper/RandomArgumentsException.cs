@@ -8,22 +8,7 @@ namespace Accademy.Helper
 {
     public class RandomArgumentsException : Exception
     {
-        //public int MyField;
-
-        //public int MyProperty
-        //{
-        //    get
-        //    {
-        //        //.........
-        //        return MyProperty / 2;
-        //    }
-        //    set 
-        //    { 
-        //        MyProperty = value * 100; 
-        //    }
-        //}
-        //public override string Message => "Min range is greater then max range";
-        public override string Message
+        public override string Message // se si va sulla definition di Exception, si nota che il Message è virtual, quidni se ne può fare l'override
         {
             get
             {

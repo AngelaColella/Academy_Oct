@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Helper.cs" />
     <Compile Include="RandomArgumentsException.cs" />
-    <Compile Include="RandomHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,6 +11,7 @@ namespace Accademy.Geometry
         double GetArea();
         double GetPerimetro();
 
-        // NON potrei inserire un metodo GetDiagonale perchè non si potrebbe usare per Cerchio
+        // NON potrei inserire un metodo GetDiagonale perchè non si potrebbe usare per Cerchio 
+        // e quando una classe eredita un'interfaccia, essa deve NECESSARIAMENTE implementarne tutti i metodi
     }
 }
